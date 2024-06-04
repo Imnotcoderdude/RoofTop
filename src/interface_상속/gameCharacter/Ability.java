@@ -1,4 +1,4 @@
-package gameCharacter;
+package interface_상속.gameCharacter;
 
 public interface Ability {
     int getLevel();

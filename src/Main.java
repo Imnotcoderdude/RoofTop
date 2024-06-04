@@ -1,13 +1,14 @@
-import gameCharacter.MyOrc;
+import interface_상속.lol.Champion;
+import interface_상속.lol.Timo;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
 
-        MyOrc myOrc = new MyOrc();
+        Champion timo = new Timo();
 
-        System.out.println("종족명 : "+myOrc.getRace());
-
-        System.out.println(myOrc.getLevel());
+        timo.getQ().useSkill();
+        timo.getW().useSkill();
+        timo.getE().useSkill();
+        timo.getR().useSkill();
     }
 }

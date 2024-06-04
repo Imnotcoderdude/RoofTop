@@ -1,4 +1,4 @@
-package gameCharacter;
+package interface_상속.gameCharacter;
 
 public class MyOrc extends Character{
 
@@ -49,37 +49,13 @@ public class MyOrc extends Character{
     }
 
     @Override
-    public String allRaceSkill() {
+    public String setWeapon() {
         return "";
     }
 
     @Override
-    public String humanSkill() {
+    public String setSkill() {
         return "";
     }
 
-    @Override
-    public String orcSkill() {
-        return "";
-    }
-
-    @Override
-    public String elfSkill() {
-        return "";
-    }
-
-    @Override
-    public String humanWeapon() {
-        return "";
-    }
-
-    @Override
-    public String orcWeapon() {
-        return "ShortAxe";
-    }
-
-    @Override
-    public String elfWeapon() {
-        return "오크는 엘프의 무기는 사용할 수 없습니다.";
-    }
 }
